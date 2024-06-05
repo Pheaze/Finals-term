@@ -15,19 +15,38 @@
     text-align: center;
     }
     
-    #nav-div{
-    width:100%;
-    min-height:30px;
-    background-color:lightgray;
-    line-height:30px;
-    text-align: center;
-    margin-bottom:10px;
-    }
+    .topnav {
+        background-color:rgb(233, 143, 143);
+        overflow: hidden;
+      }
+      
+
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+    
+      .topnav a:hover {
+        background-color: #d87eb2;
+        color: black;
+      }
+      
+   
+      .topnav a.active {
+        background-color: #d87eb2;
+        color: white;
+      }
     
     #headerbanner-div{
+    margin: top 10px; 
     width:100%;
     min-height:100px;
-    background-color:lightgray;
+    background-color:rgb(233, 143, 143);
     line-height:100px;
     text-align: center;
     }
@@ -42,7 +61,7 @@
     #sidebar-div{
     width:20%;
     min-height:400px;
-    background-color:lightgray;
+    background-color:rgb(233, 143, 143);
     float:left;
     text-align:center;
     line-height:400px;
@@ -51,7 +70,7 @@
     #bodyarea-div{
     width:75%;
     min-height:400px;
-    background-color:lightgray;
+    background-color:rgb(233, 143, 143);
     float:right;
     text-align:center;
     line-height:400px;
