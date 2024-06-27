@@ -1,5 +1,5 @@
 .navbar{
-    background: #fff;
+    background-color:rgb(233, 143, 143);
     height: 80px;
     margin: 20px;
     border-radius: 16px;
@@ -7,12 +7,20 @@
 }
 .navbar-brand{
     font-weight: 500;
-    color: #009970;
+    color: #033ba3;
     font-size: 24px;
     transition: 0.3s color;
 }
+.hidden-paragraph {
+    display: none;
+    font-size: 10px;
+}
+
+.hover-image:hover +.hidden-paragraph {
+    display: block;
+}
 .login-button{
-    background: #009970;
+    background: #033ba3;
     color: #fff;
     font-size: 14px;
     padding: 8px 20px;
@@ -22,7 +30,7 @@
 }
 
 .login-button:hover{
-    background: #00b383;
+    color: #033ba3;
 }
 
 .navbar-toggler{
@@ -68,7 +76,7 @@ ver, .btn-close:hover{
 }
 
 .hero-section{
-    background: url(hero-bg.png) no-repeat center;
+    background: url(naoto.gif) no-repeat center;
     background-size: cover;
     width: 100%;
 }
